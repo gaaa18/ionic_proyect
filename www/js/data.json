@@ -1,0 +1,56 @@
+{
+	"detalles": [
+		{
+			"foto": "Shelby_1.png",
+			"titulo": "Interior",
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}, {
+			"foto": "Shelby_2.png",
+			"titulo": "Mecanica",
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}, {
+			"foto": "Shelby_3.png",
+			"titulo": "Ruedas",
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}, {
+			"foto": "Shelby_4.png",
+			"titulo": "Diseño",
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}, {
+			"foto": "banana.png",
+			"titulo": "Abogaducho",
+			"descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	],
+
+	"usuarios": [
+		{
+			"nombre": "Selena",
+			"apellidos": "Gomez",
+			"edad": 24,
+			"telefono": "777666222",
+			"en_activo": true,
+			"foto": "foto1.jpg",
+			"uso": 3,
+			"id": 0
+		}, {
+			"nombre": "Gabriela",
+			"apellidos": "Lenzi",
+			"edad": 26,
+			"telefono": "777999000",
+			"en_activo": false,
+			"foto": "foto2.jpg",
+			"uso": 2,
+			"id": 1
+		}, {
+			"nombre": "Olivia",
+			"apellidos": "Culpo",
+			"edad": 29,
+			"telefono": "121333444",
+			"en_activo": false,
+			"foto": "foto3.jpg",
+			"uso": 4,
+			"id": 2
+		}
+	]
+}
