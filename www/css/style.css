@@ -1,4 +1,11 @@
 /* Empty. Add your own CSS if you like */
+.padding{
+	background-color: red;
+}
+
+.list{
+	background-color: blue;
+}
 
 .noresumido{
 	background-color: #fdf2d1 !important;
@@ -36,6 +43,14 @@ ion-content.inactivo{
 	background-color: #fdf2d1;
 }
 
+.video-container{
+	text-align: center;
+	margin-left: -106px;
+	margin-top: -8px;
+	border:10px;
+	border-color: red;
+}
+
 .rotulo{
 	color: #666666;
 }
@@ -45,3 +60,4 @@ ion-content.inactivo{
 	font-size: 1.4em;
 	font-weight: bold;
 }
+

@@ -91,7 +91,7 @@ angular.module('starter', ['ionic'])
 .controller('VideosCtrl',['$scope','$http','$state' ,function ($scope,$http,$state) {
    $http.get('js/data.json')
    .success(function (data) {
-      $scope.detalles = data.detalles;
+      $scope.detalles_videos = data.detalles_videos;
       $scope.data = {showReorder:false};
    });
 
@@ -100,8 +100,8 @@ angular.module('starter', ['ionic'])
    }
 
    $scope.moveItem = function (item,fromIndex,toIndex) {
-      $scope.detalles.splice(fromIndex,1);
-      $scope.detalles.splice(toIndex,0,item);
+      $scope.detalles_videos.splice(fromIndex,1);
+      $scope.detalles_videos.splice(toIndex,0,item);
    }
 }])
 

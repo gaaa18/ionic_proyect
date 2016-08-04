@@ -10,15 +10,27 @@
 
 		<ion-list class="list" show-reorder="data.showReorder">
 			<ion-item class="item-thumbnail-left item-text-wrap" 
-				ng-repeat="item in detalles"
+				ng-repeat="item in detalles_videos"
 				ng-click="toggleDescripcion(item)"
 				ng-class="{'noresumido' : item.resumido}"
 				>
 
-				<img ng-src="img/recortes/{{item.foto}}">
-				<h3>{{item.titulo}}</h3>
+				<!--Videos-->
 
-				<p ng-show="!item.resumido">{{item.descripcion | limitTo: 85}}
+				<div class="video-container">
+					<iframe src="https://www.youtube.com/embed/a7zDolxGrC4" frameborder="0" width="200px" height="200%"></iframe>
+				</div>
+
+
+				<!--End Videos-->
+
+
+
+				
+				<!--<img ng-src="img/recortes/{{item.foto}}">-->
+				<h3 class="titulo-app">{{item.titulo}}</h3>
+
+				<p class="contenido-app" ng-show="!item.resumido">{{item.descripcion | limitTo: 85}}
 				{{item.descripcion.length > 85 ? '&hellip;' :'' }}</p>
 				<p ng-show="item.resumido">{{item.descripcion}}</p>
 
