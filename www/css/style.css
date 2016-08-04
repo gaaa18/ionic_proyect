@@ -61,4 +61,7 @@ ion-content.inactivo{
 .video-container{
 	margin-left: -6.5em;
 }
-
+.video-app{
+	border: 10px solid red;
+	border-radius: 5px;
+}
