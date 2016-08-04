@@ -52,6 +52,35 @@ angular.module('starter', ['ionic'])
     }
   })
 
+  .state('tab.comunidad', {
+    url: '/comunidad',
+    views: {
+      'tab-comunidad': {
+        templateUrl: 'templates/comunidad.html',
+        controller: 'ComunidadCtrl'
+      }
+    }
+  })
+
+  .state('tab.user', {
+    url: '/user/:id',
+    views: {
+      'tab-user': {
+        templateUrl: 'templates/user.html',
+        controller: 'UserCtrl'
+      }
+    }
+  })
+
+  .state('tab.info',{
+    url: '/info',
+    views: {
+      'info': {
+        templateUrl: 'templates/info.html'
+      }
+    }
+  })
+
     $urlRouterProvider.otherwise('/tab/home');
 })
 
@@ -74,5 +103,18 @@ angular.module('starter', ['ionic'])
       $scope.detalles.splice(fromIndex,1);
       $scope.detalles.splice(toIndex,0,item);
    }
+}])
 
+.controller('ComunidadCtrl', ['$scope','$http','$state', function($scope,$http,$state){
+  $http.get('js/data.json')
+  .success(function(data){
+    $scope.usuarios = data.usuarios;
+  });
+}])
+
+.controller('UserCtrl', ['$scope','$http','$state', function($scope,$http,$state){
+  http.get('js/datos.json')
+  .success(function(data){
+    $scope.data = data.usuarios[$state.param.id];
+  });
 }])
