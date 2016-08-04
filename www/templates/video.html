@@ -18,7 +18,13 @@
 				<!--Videos-->
 
 				<div class="video-container">
-					<iframe src="https://www.youtube.com/embed/a7zDolxGrC4" frameborder="0" width="200px" height="200%"></iframe>
+					<iframe src="https://www.youtube.com/embed/a7zDolxGrC4" frameborder="0" width="295px" height="190px">
+					</iframe>
+					<h3 class="titulo-app">{{item.titulo}}</h3>
+
+				<p class="contenido-app" ng-show="!item.resumido">{{item.descripcion | limitTo: 85}}
+				{{item.descripcion.length > 85 ? '&hellip;' :'' }}</p>
+				<p ng-show="item.resumido">{{item.descripcion}}</p>
 				</div>
 
 
@@ -28,11 +34,7 @@
 
 				
 				<!--<img ng-src="img/recortes/{{item.foto}}">-->
-				<h3 class="titulo-app">{{item.titulo}}</h3>
-
-				<p class="contenido-app" ng-show="!item.resumido">{{item.descripcion | limitTo: 85}}
-				{{item.descripcion.length > 85 ? '&hellip;' :'' }}</p>
-				<p ng-show="item.resumido">{{item.descripcion}}</p>
+				
 
 				<ion-reorder-button class="ion-navicon"
 					on-reorder = "moveItem(item,$fromIndex,$toIndex)">

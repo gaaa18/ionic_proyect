@@ -1,10 +1,7 @@
 /* Empty. Add your own CSS if you like */
 .padding{
-	background-color: red;
-}
-
-.list{
-	background-color: blue;
+	width: 100%;
+    height: 80%;
 }
 
 .noresumido{
@@ -59,5 +56,9 @@ ion-content.inactivo{
 	color: #333333;
 	font-size: 1.4em;
 	font-weight: bold;
+}
+
+.video-container{
+	margin-left: -6.5em;
 }
 
