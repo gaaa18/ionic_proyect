@@ -26,13 +26,13 @@
 
 	"detalles_videos": [
 		{
-			"titulo": "Video1",
+			"titulo": "video 1",
 			"descripcion": "Aqui se muestra gordo hablando paja."
 		}, {
-			"titulo": "Video2",
+			"titulo": "video 2",
 			"descripcion": "Aqui el gordo esta pensando en lo que se va a ir a hartar mañana en la noche."
 		}, {
-			"titulo": "Video3",
+			"titulo": "video 3",
 			"descripcion": "El gordo pensando que messi es el mejor jugador del mundo, pobre iluso el gordo nacatamalero es un ejemplo gordo no te enojes estoy probando algo en la aplicacion y solo se me ocurre molestarte."
 		}
 	],

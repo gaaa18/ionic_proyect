@@ -1,8 +1,4 @@
 /* Empty. Add your own CSS if you like */
-.padding{
-	width: 100%;
-    height: 80%;
-}
 
 .noresumido{
 	background-color: #fdf2d1 !important;
@@ -58,10 +54,15 @@ ion-content.inactivo{
 	font-weight: bold;
 }
 
-.video-container{
-	margin-left: -6.5em;
-}
 .video-app{
 	border: 10px solid red;
 	border-radius: 5px;
+	margin-left: -6.5em;
+	width: 203%;
 }
+
+.contenido-app-all{
+	margin-left: -65px;
+}
+
+
